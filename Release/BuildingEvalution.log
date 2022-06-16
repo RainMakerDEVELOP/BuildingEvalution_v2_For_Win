@@ -1,0 +1,188 @@
+﻿빌드 시작: 2020-03-26 오후 12:50:48
+     1>2 노드의 "D:\Project\2015\SOURCE\BuildingEvalution_v2\BuildingEvalution.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Release\BuildingEvalution_v2.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\BuildingEvalution_v2.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\BuildingEvalution_v2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\BuildingEvalution_v2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Lib\Ary.cpp ..\Lib\fft_common.cpp ..\Lib\IniFunc.cpp ..\Lib\LogFunc.cpp ..\Lib\mySqlClasscpp.cpp BuildingEvalution.cpp BuildingEvalutionDlg.cpp GroundAccType.cpp MakeEvalutionBaseData.cpp mseed2Gascii.cpp SpectrumType.cpp wavedataManager.cpp
+         Ary.cpp
+         fft_common.cpp
+     1>..\Lib\fft_common.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Lib\fft_common.cpp(274): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(288): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(476): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(477): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(481): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(482): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(485): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(492): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(497): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(498): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(511): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(515): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(521): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(525): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(531): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(546): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(553): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(554): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(692): warning C4244: '=' : 'double'에서 'real_fft'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(693): warning C4244: '=' : 'double'에서 'real_fft'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(694): warning C4244: '=' : 'double'에서 'real_fft'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(695): warning C4244: '=' : 'double'에서 'real_fft'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\fft_common.cpp(686): warning C4101: 'scratch' :참조되지 않은 지역 변수입니다.
+         IniFunc.cpp
+         LogFunc.cpp
+         mySqlClasscpp.cpp
+     1>..\Lib\mySqlClasscpp.cpp(198): warning C4244: 'return' : 'my_ulonglong'에서 'ulong'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\Lib\mySqlClasscpp.cpp(207): warning C4244: 'return' : 'my_ulonglong'에서 'ulong'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         BuildingEvalution.cpp
+         BuildingEvalutionDlg.cpp
+     1>BuildingEvalutionDlg.cpp(30): warning C4005: 'CONFIG_INI' : 매크로 재정의
+                 d:\project\2015\source\include\../include/define.h(85) : 'CONFIG_INI'의 이전 정의를 참조하십시오.
+     1>BuildingEvalutionDlg.cpp(193): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(197): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(199): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(200): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(201): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(202): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(209): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(889): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(894): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(896): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(897): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(898): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(899): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(906): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(1526): warning C4101: 'pQueryResult' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(1947): warning C4995: 'wsprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(1947): warning C4995: 'wsprintfA': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2003): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2036): warning C4995: 'wsprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2036): warning C4995: 'wsprintfA': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2195): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2253): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2311): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2378): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2436): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2502): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2568): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(2619): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2676): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2107): warning C4101: 'szIniBuffer' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(2765): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2887): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>BuildingEvalutionDlg.cpp(2942): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2948): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2961): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2967): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2973): warning C4995: 'strcat': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2990): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2996): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3006): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3012): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3018): warning C4995: 'strcat': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3029): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>BuildingEvalutionDlg.cpp(3102): warning C4995: 'strcat': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3237): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3240): warning C4995: 'strcat': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3248): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3254): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3259): warning C4995: 'strcat': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3316): warning C4995: 'strcat': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3450): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3459): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3478): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(3482): warning C4995: 'sprintf': 이름이 #pragma deprecated로 표시되었습니다.
+     1>BuildingEvalutionDlg.cpp(2720): warning C4101: 'res' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(2721): warning C4101: 'row' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(2716): warning C4101: 'szIniBuffer' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(2801): warning C4101: 'sWriteBuffer' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(2722): warning C4101: 'num_fields' :참조되지 않은 지역 변수입니다.
+     1>BuildingEvalutionDlg.cpp(3640): warning C4244: '=' : 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(3755): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(3756): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(3760): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>BuildingEvalutionDlg.cpp(3784): warning C4995: 'strcpy': 이름이 #pragma deprecated로 표시되었습니다.
+         GroundAccType.cpp
+         MakeEvalutionBaseData.cpp
+     1>d:\project\2015\source\buildingevalution_v2\mseed2Gascii.h(20): warning C4005: 'VERSION' : 매크로 재정의
+                 d:\project\2015\source\mysql-connector-c-6.1.11-win32\include\my_config.h(400) : 'VERSION'의 이전 정의를 참조하십시오.
+     1>d:\project\2015\source\buildingevalution_v2\mseed2Gascii.h(21): warning C4005: 'PACKAGE' : 매크로 재정의
+                 d:\project\2015\source\mysql-connector-c-6.1.11-win32\include\my_config.h(394) : 'PACKAGE'의 이전 정의를 참조하십시오.
+     1>MakeEvalutionBaseData.cpp(556): warning C4101: 'dwtmp2' :참조되지 않은 지역 변수입니다.
+     1>MakeEvalutionBaseData.cpp(554): warning C4101: 'dwfftVal' :참조되지 않은 지역 변수입니다.
+     1>MakeEvalutionBaseData.cpp(557): warning C4101: 'dwtmp3' :참조되지 않은 지역 변수입니다.
+     1>MakeEvalutionBaseData.cpp(520): warning C4101: 'real_in' :참조되지 않은 지역 변수입니다.
+     1>MakeEvalutionBaseData.cpp(558): warning C4101: 'dwfrequency' :참조되지 않은 지역 변수입니다.
+     1>MakeEvalutionBaseData.cpp(555): warning C4101: 'dwtmp1' :참조되지 않은 지역 변수입니다.
+     1>MakeEvalutionBaseData.cpp(1611): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(1617): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(1690): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(1696): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(1973): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(2228): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(2397): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+     1>MakeEvalutionBaseData.cpp(3390): warning C4244: '초기화 중' : 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3393): warning C4244: '=' : 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3449): warning C4244: '=' : 'double'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3450): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3451): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3552): warning C4244: '초기화 중' : 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3554): warning C4244: '=' : 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3629): warning C4244: '=' : 'double'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3630): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3631): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>MakeEvalutionBaseData.cpp(3921): warning C4244: '=' : 'double'에서 '__int64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         mseed2Gascii.cpp
+         SpectrumType.cpp
+         wavedataManager.cpp
+     1>wavedataManager.cpp(93): warning C4244: '인수' : '__int64'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(127): warning C4244: '인수' : '__int64'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(168): warning C4244: '=' : '__int64'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(211): warning C4244: '인수' : '__int64'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(1140): warning C4244: '인수' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(1140): warning C4244: '인수' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2132): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2133): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2134): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2136): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2137): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2142): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2283): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2471): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>wavedataManager.cpp(2510): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0412" /IRelease\ /nologo /fo"Release\BuildingEvalution.res" BuildingEvalution.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\2015\SOURCE\BuildingEvalution_v2\Release\BuildingEvalution_v2.exe" /INCREMENTAL:NO /NOLOGO ..\Lib\wLibMseed_R.lib ..\Lib\libmysql.lib "..\Lib\libfftw3-3.lib" "..\Lib\libfftw3f-3.lib" "..\Lib\libfftw3l-3.lib" /MANIFEST /ManifestFile:"Release\BuildingEvalution_v2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Project\2015\SOURCE\BuildingEvalution_v2\Release\BuildingEvalution_v2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\2015\SOURCE\BuildingEvalution_v2\Release\BuildingEvalution_v2.lib" /MACHINE:X86 Release\BuildingEvalution.res
+         Release\Ary.obj
+         Release\fft_common.obj
+         Release\IniFunc.obj
+         Release\LogFunc.obj
+         Release\mySqlClasscpp.obj
+         Release\BuildingEvalution.obj
+         Release\BuildingEvalutionDlg.obj
+         Release\GroundAccType.obj
+         Release\MakeEvalutionBaseData.obj
+         Release\mseed2Gascii.obj
+         Release\SpectrumType.obj
+         Release\stdafx.obj
+         Release\wavedataManager.obj
+         코드를 생성하고 있습니다.
+     1>d:\project\2015\source\buildingevalution_v2\buildingevalutiondlg.cpp(561): warning C4715: 'BuildlingEvalutionProc' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+         코드를 생성했습니다.
+         BuildingEvalution.vcxproj -> D:\Project\2015\SOURCE\BuildingEvalution_v2\Release\BuildingEvalution_v2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Project\2015\SOURCE\BuildingEvalution_v2\Release\BuildingEvalution_v2.exe;#1" /manifest Release\BuildingEvalution_v2.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Release\BuildingEvalution_v2.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\BuildingEvalution_v2.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Project\2015\SOURCE\BuildingEvalution_v2\BuildingEvalution.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:15.10

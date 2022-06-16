@@ -1,0 +1,18 @@
+KC_NHB_HBX	A	안전
+KC_NHB_HBX	SP	안전
+KC_NHB_HBY	A	안전
+KC_NHB_HBY	SP	안전
+KC_NHB_HBZ	A	안전
+KC_NHB_HBZ	SP	안전
+KC_NHG_HGN	A	안전
+KC_NHG_HGN	SP	안전
+KC_NHG_HGE	A	안전
+KC_NHG_HGE	SP	안전
+KC_NHG_HGZ	A	안전
+KC_NHG_HGZ	SP	안전
+acc_val=안전
+dis_val=안전
+sp_val=안전
+cav_val=
+stm_val=
+total=안전

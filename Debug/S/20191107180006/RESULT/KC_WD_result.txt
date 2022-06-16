@@ -1,0 +1,14 @@
+KC_WDA_HBX	D	안전
+KC_WDA_HBY	D	안전
+KC_WDG_HGN	A	안전
+KC_WDG_HGN	SP	점검 필요
+KC_WDG_HGE	A	안전
+KC_WDG_HGE	SP	점검 필요
+KC_WDG_HGZ	A	안전
+KC_WDG_HGZ	SP	점검 필요
+acc_val=안전
+dis_val=안전
+sp_val=점검필요
+cav_val=
+stm_val=
+total=점검필요

@@ -1,0 +1,2 @@
+WarningLimit=1
+MinAvailChanCnt=3

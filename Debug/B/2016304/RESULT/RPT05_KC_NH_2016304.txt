@@ -1,0 +1,14 @@
+ditc : K
+event_id : 2016304
+net : KC
+obs_id : NH
+acc_val : 안전
+sp_val : 안전
+dis_val : 안전
+cav_val : 
+stm_val : 
+result : 안전
+user_dept : 
+user_duty : 
+user_name : 
+user_tel : 

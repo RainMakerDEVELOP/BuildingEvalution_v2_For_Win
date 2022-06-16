@@ -1,0 +1,23 @@
+메인버전	2015.06.22.0
+
+# 파일명		설치 디렉토리		버전
+# AccServer Version
+SystemManager.exe	AccServer\bin		2015.06.22.0
+MMAServer.exe		AccServer\bin		2015.06.22.0
+BuildingEvalution.exe	AccServer\bin		2015.06.22.0
+EventMonitor.exe	AccServer\bin		2015.06.22.0
+libmysql.dll		AccServer\bin		2015.06.22.0
+MonitorServer.exe	AccServer\bin		2015.06.22.0
+RebuildEventInfo.exe	AccServer\bin		2015.06.22.0
+SendReport.exe		AccServer\bin		2015.06.22.0
+WaveServer.exe		AccServer\bin		2015.06.22.0
+AlertDeviceManager.exe	AccServer\bin		2015.06.22.0
+Qtvc_dll.dll		AccServer\bin		2015.06.22.0
+ReportRelay.exe		AccServer\bin		2015.06.22.0
+WaveReceiver.exe	AccServer\bin		2015.06.22.0
+
+# AccWeb Version
+crossdomain.xml		AccWeb\ROOT		2015.06.22.0
+index.html		AccWeb\ROOT		2015.06.22.0
+areasub_svc.jsp		AccWeb\ROOT\web\common	2015.06.22.0
+category_svc.jsp	AccWeb\ROOT\web\common	2015.06.22.0

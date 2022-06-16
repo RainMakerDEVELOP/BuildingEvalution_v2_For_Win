@@ -1,0 +1,18 @@
+KC_WDB_HBZ	A	점검 필요
+KC_WDB_HBZ	SP	점검 필요
+KC_WDB_HBX	A	점검 필요
+KC_WDB_HBX	SP	점검 필요
+KC_WDB_HBY	A	안전
+KC_WDB_HBY	SP	점검 필요
+KC_WDG_HGN	A	점검 필요
+KC_WDG_HGN	SP	점검 필요
+KC_WDG_HGE	A	점검 필요
+KC_WDG_HGE	SP	점검 필요
+KC_WDG_HGZ	A	점검 필요
+KC_WDG_HGZ	SP	점검 필요
+acc_val=점검필요
+dis_val=평가불가
+sp_val=점검필요
+cav_val=
+stm_val=
+total=점검필요
